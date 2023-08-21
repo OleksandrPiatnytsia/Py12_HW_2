@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pycore12project"
+version = "0.1.0"
+description = ""
+authors = ["Oleksandr <115171014+OleksandrPiatnytsia@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+prompt-toolkit = "^3.0.39"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
