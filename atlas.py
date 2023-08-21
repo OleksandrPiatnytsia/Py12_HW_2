@@ -11,6 +11,7 @@ from config import use_promt_toolkit, pre_command_text, use_nested_completer
 from move_main import main_sort, InvalidPath
 from notebook import *
 
+
 dir_path = os.path.dirname(__file__)
 
 
