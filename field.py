@@ -1,4 +1,11 @@
-class Field:
+from abc import ABC, abstractmethod
+
+class Field(ABC):
+
+    @abstractmethod
+    def __getitem__(self):
+        pass
+
     def __init__(self, value):
         self.value = value
     
